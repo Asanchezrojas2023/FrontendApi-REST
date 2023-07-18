@@ -11,7 +11,7 @@ const routes: Routes = [
         component: DashboardComponent
       },
       {
-        path: '**',
+        path: '**', 
         redirectTo: ''
       }
     ]     // http://localhost:4200/dashboard
